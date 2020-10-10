@@ -1,27 +1,39 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-import axios from 'axios'
-// import { getRestaurants } from  './services/restaurants'
 
 import Navbar from './components/Navbar'
-// import Card from './components/Card'
+import Card from './components/Card'
 
 function App() {
+  const [restaurants, setRestaurants] = useState([])
+
   useEffect(() => {
-    axios.get('https://recruiting-datasets.s3.us-east-2.amazonaws.com/data_melp.json')
-      .then(res => {
-        console.log(res.data)
-      })
+    const proxyURL = 'https://cors-anywhere.herokuapp.com/'
+    const url = 'https://recruiting-datasets.s3.us-east-2.amazonaws.com/data_melp.json'
+
+    fetch(proxyURL + url)
+    .then(res => res.json())
+    .then(data => {
+      setRestaurants(data)
+    })
   }, [])
 
   return (
-    <div>
+    <div className="App-header">
       <Navbar />
-      <div>
+      <div className="card_container">
         {
-          // restaurants.forEach(restaurant => {
-          //   console.log(restaurant)
-          // })
+          restaurants.map(({ id, name, contact, address, rating }) => {
+            return (
+              <Card 
+                key={id} 
+                name={name} 
+                contact={contact} 
+                address={address} 
+                rating={rating} 
+              />
+            )
+          })
         }
       </div>
     </div>

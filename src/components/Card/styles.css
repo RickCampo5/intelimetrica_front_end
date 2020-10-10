@@ -1,0 +1,70 @@
+.card {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 3%;
+  padding: 3%;
+  width: 290px;
+  box-shadow: 4px 7px 5px 0px rgba(0,0,0,0.39);
+  background-color: rgb(49, 98, 124);
+}
+
+.name {
+  font-size: 1.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: rgb(232, 228, 228);
+}
+
+.title {
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: rgb(230, 223, 223);
+}
+
+.list {
+  margin-top: 0;
+  list-style: none;
+  padding-inline-start: 10px;
+}
+
+.list li {
+  margin: 1%;
+}
+
+.link {
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgb(230, 223, 223);
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 0.789);
+}
+
+.street {
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgb(230, 223, 223);
+}
+
+.city {
+  font-size: 0.9em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgba(230, 223, 223, 1);
+}
+
+.fb-btns {
+  margin-top: 3%;
+}
+
+.share {
+  background-color: #1778F2;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
