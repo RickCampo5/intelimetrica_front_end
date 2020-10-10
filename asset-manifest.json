@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/intelimetrica_front_end/static/css/main.5f361e03.chunk.css",
-    "main.js": "/intelimetrica_front_end/static/js/main.f36bc56f.chunk.js",
-    "main.js.map": "/intelimetrica_front_end/static/js/main.f36bc56f.chunk.js.map",
+    "main.js": "/intelimetrica_front_end/static/js/main.c458d499.chunk.js",
+    "main.js.map": "/intelimetrica_front_end/static/js/main.c458d499.chunk.js.map",
     "runtime-main.js": "/intelimetrica_front_end/static/js/runtime-main.e8a90f8b.js",
     "runtime-main.js.map": "/intelimetrica_front_end/static/js/runtime-main.e8a90f8b.js.map",
-    "static/js/2.5cc8d44d.chunk.js": "/intelimetrica_front_end/static/js/2.5cc8d44d.chunk.js",
-    "static/js/2.5cc8d44d.chunk.js.map": "/intelimetrica_front_end/static/js/2.5cc8d44d.chunk.js.map",
+    "static/js/2.83882e55.chunk.js": "/intelimetrica_front_end/static/js/2.83882e55.chunk.js",
+    "static/js/2.83882e55.chunk.js.map": "/intelimetrica_front_end/static/js/2.83882e55.chunk.js.map",
     "index.html": "/intelimetrica_front_end/index.html",
-    "precache-manifest.4c13af68fb566ea64bd31628bd168169.js": "/intelimetrica_front_end/precache-manifest.4c13af68fb566ea64bd31628bd168169.js",
+    "precache-manifest.ead4fcda886c9456a5d562f48decc2cc.js": "/intelimetrica_front_end/precache-manifest.ead4fcda886c9456a5d562f48decc2cc.js",
     "service-worker.js": "/intelimetrica_front_end/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/intelimetrica_front_end/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.5cc8d44d.chunk.js.LICENSE.txt": "/intelimetrica_front_end/static/js/2.5cc8d44d.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/intelimetrica_front_end/static/media/logo.5d5d9eef.svg"
+    "static/js/2.83882e55.chunk.js.LICENSE.txt": "/intelimetrica_front_end/static/js/2.83882e55.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8a90f8b.js",
-    "static/js/2.5cc8d44d.chunk.js",
+    "static/js/2.83882e55.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.f36bc56f.chunk.js"
+    "static/js/main.c458d499.chunk.js"
   ]
 }
