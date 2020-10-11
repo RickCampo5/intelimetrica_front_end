@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/intelimetrica_front_end/static/css/main.4b7dac95.chunk.css",
-    "main.js": "/intelimetrica_front_end/static/js/main.179eddf2.chunk.js",
-    "main.js.map": "/intelimetrica_front_end/static/js/main.179eddf2.chunk.js.map",
+    "main.css": "/intelimetrica_front_end/static/css/main.129c3304.chunk.css",
+    "main.js": "/intelimetrica_front_end/static/js/main.de911111.chunk.js",
+    "main.js.map": "/intelimetrica_front_end/static/js/main.de911111.chunk.js.map",
     "runtime-main.js": "/intelimetrica_front_end/static/js/runtime-main.e8a90f8b.js",
     "runtime-main.js.map": "/intelimetrica_front_end/static/js/runtime-main.e8a90f8b.js.map",
-    "static/js/2.c2e5a253.chunk.js": "/intelimetrica_front_end/static/js/2.c2e5a253.chunk.js",
-    "static/js/2.c2e5a253.chunk.js.map": "/intelimetrica_front_end/static/js/2.c2e5a253.chunk.js.map",
+    "static/js/2.8e93dcbc.chunk.js": "/intelimetrica_front_end/static/js/2.8e93dcbc.chunk.js",
+    "static/js/2.8e93dcbc.chunk.js.map": "/intelimetrica_front_end/static/js/2.8e93dcbc.chunk.js.map",
     "index.html": "/intelimetrica_front_end/index.html",
-    "precache-manifest.53a15c9182afdde4bebb3eff7d7dac8d.js": "/intelimetrica_front_end/precache-manifest.53a15c9182afdde4bebb3eff7d7dac8d.js",
+    "precache-manifest.ac6d8fa54157d17088ce3dc264b60ada.js": "/intelimetrica_front_end/precache-manifest.ac6d8fa54157d17088ce3dc264b60ada.js",
     "service-worker.js": "/intelimetrica_front_end/service-worker.js",
-    "static/css/main.4b7dac95.chunk.css.map": "/intelimetrica_front_end/static/css/main.4b7dac95.chunk.css.map",
-    "static/js/2.c2e5a253.chunk.js.LICENSE.txt": "/intelimetrica_front_end/static/js/2.c2e5a253.chunk.js.LICENSE.txt"
+    "static/css/main.129c3304.chunk.css.map": "/intelimetrica_front_end/static/css/main.129c3304.chunk.css.map",
+    "static/js/2.8e93dcbc.chunk.js.LICENSE.txt": "/intelimetrica_front_end/static/js/2.8e93dcbc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e8a90f8b.js",
-    "static/js/2.c2e5a253.chunk.js",
-    "static/css/main.4b7dac95.chunk.css",
-    "static/js/main.179eddf2.chunk.js"
+    "static/js/2.8e93dcbc.chunk.js",
+    "static/css/main.129c3304.chunk.css",
+    "static/js/main.de911111.chunk.js"
   ]
 }
