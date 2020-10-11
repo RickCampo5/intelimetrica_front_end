@@ -26,14 +26,19 @@ const Card = ({
     setMap(null)
   }, [])
 
+  const center = {
+    lat: lat,
+    lng: lng
+  }
+
   return(
     <div className="card">
       <LoadScript
-        googleMapsApiKey="AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE"
+        googleMapsApiKey="AIzaSyAdA6tSsSu4CxX1a5npT52WOpzV_udgWhM"
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
-          center={{lat, lng}}
+          center={center}
           zoom={10}
           onLoad={onLoad}
           onUnmount={onUnmount}

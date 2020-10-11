@@ -1,9 +1,10 @@
 import React from 'react';
+import './styles.css'
 
 const Navbar = () => {
   return (
-    <div>
-      <a href="/">Melp</a>
+    <div className="nav">
+      <a className="logo" href="/">Melp</a>
     </div>
   )
 }
